@@ -25,4 +25,4 @@ Add this Github repository to your `composer.json` and require `finnito/well_kno
 ```
 
 ### Bugs & Feature Requests
-If you run into a bug or have a feature you'd like to request, open an issue or file a pull request.
+If you run into a bug or have a feature you'd like to request, [open an issue](https://gitlab.com/Finnito/well_known-module/issues) or [file a pull request](https://gitlab.com/Finnito/well_known-module/merge_requests).
