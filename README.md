@@ -2,7 +2,7 @@
 *__Author:__ Finn LeSueur*
 
 ## What is */.well-known/*?
-A draft standard (RFC5875) that "defines a path prefix for “well-known locations”, “/.well-known/”, in selected Uniform Resource Identifier (URI) schemes."".
+[A draft standard (RFC5875) that "defines a path prefix for “well-known locations”, “/.well-known/”, in selected Uniform Resource Identifier (URI) schemes."".](https://tools.ietf.org/html/rfc5785)
 
 The idea behind this is to standardise a set of URLs which link to useful resources inside a website. The most common example being:
 
