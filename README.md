@@ -1,2 +1,28 @@
-# Well Known Module
+# PyroCMS 3: Well Known Module
+*__Author:__ Finn LeSueur*
 
+## What is */.well-known/*?
+A draft standard (RFC5875) that "defines a path prefix for “well-known locations”, “/.well-known/”, in selected Uniform Resource Identifier (URI) schemes."".
+
+The idea behind this is to standardise a set of URLs which link to useful resources inside a website. The most common example being:
+
+`/.well-known/change-password` => `/users/change-password`
+
+This module implements the common redirects defined by the draft standard, and allows for this customistion in the case that your URLs are not stadnard to a PyroCMS 3 installation.
+
+Each redirect can also be disabled if it is not applicable to your website.
+
+## Installing finnito/well_known-module
+Add this Github repository to your `composer.json` and require `finnito/well_known-module`.
+
+```
+"repositories": [
+	{
+		"type": "vcs",
+		"url": "https://gitlab.com/finnito/well_known-module"
+	}
+]
+```
+
+### Bugs & Feature Requests
+If you run into a bug or have a feature you'd like to request, open an issue or file a pull request.
