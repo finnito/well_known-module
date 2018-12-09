@@ -8,7 +8,7 @@ The idea behind this is to standardise a set of URLs which link to useful resour
 
 `/.well-known/change-password` => `/users/change-password`
 
-This module implements the common redirects defined by the draft standard, and allows for this customistion in the case that your URLs are not stadnard to a PyroCMS 3 installation.
+This module implements the common redirects defined by the draft standard, and allows for this customistion in the case that your URLs are not standard to a PyroCMS 3 installation.
 
 Each redirect can also be disabled if it is not applicable to your website.
 
