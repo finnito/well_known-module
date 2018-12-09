@@ -1,0 +1,30 @@
+<?php namespace Finnito\WellKnownModule;
+
+use Anomaly\Streams\Platform\Addon\Module\Module;
+
+class WellKnownModule extends Module
+{
+
+    /**
+     * The navigation display flag.
+     *
+     * @var bool
+     */
+    protected $navigation = true;
+
+    /**
+     * The addon icon.
+     *
+     * @var string
+     */
+    protected $icon = 'link';
+
+    /**
+     * The module sections.
+     *
+     * @var array
+     */
+    protected $sections = [
+        "configuration",
+    ];
+}

@@ -1,0 +1,29 @@
+{
+    "name": "finnito/well_known-module",
+    "type": "streams-addon",
+    "description": "Adds basic configuration for /.well-known/ URL routes.",
+    "keywords": [
+        "module",
+        "streams platform",
+        "well-known"
+    ],
+    "homepage": "http://finnito.nz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Finn LeSueur",
+            "email": "finn.lesueur@gmail.com",
+            "homepage": "https://finnito.nz",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "anomaly/streams-platform": "^1.4",
+        "anomaly/settings-module": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Finnito\\WellKnownModule\\": "src/"
+        }
+    }
+}
