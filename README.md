@@ -12,6 +12,8 @@ This module implements the common redirects defined by the draft standard, and a
 
 Each redirect can also be disabled if it is not applicable to your website.
 
+<img src="https://i.imgur.com/rt7Xnm7.png"/>
+
 ## Installing finnito/well_known-module
 Add this Github repository to your `composer.json` and require `finnito/well_known-module`.
 
