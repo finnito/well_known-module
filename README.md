@@ -17,10 +17,10 @@ Add this Github repository to your `composer.json` and require `finnito/well_kno
 
 ```
 "repositories": [
-	{
-		"type": "vcs",
-		"url": "https://gitlab.com/finnito/well_known-module"
-	}
+    {
+        "type": "vcs",
+        "url": "https://gitlab.com/finnito/well_known-module"
+    }
 ]
 ```
 
@@ -28,10 +28,10 @@ Alternatively, if you are installing multiple of my PyroCMS 3 packages, you may 
 
 ```
 "repositories": [
-	{
-		"type": "composer",
-		"url": "https://packages.finnito.nz"
-	}
+    {
+        "type": "composer",
+        "url": "https://packages.finnito.nz"
+    }
 ]
 ```
 
